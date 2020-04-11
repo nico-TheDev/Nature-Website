@@ -1,0 +1,33 @@
+@media(max-width:440px){
+    html{
+        font-size: 45%;
+    }
+
+    .nav-bar__links{
+        display: none;
+    }
+
+    .nav-bar__icon{display: block;}
+
+    .signup__hero{
+        -webkit-box-flex:0;
+                flex:0 1 100%;
+    }
+
+    .footer__container{width:90%;}
+
+    .item-list{
+        -webkit-box-flex:0;
+                flex:0 1 100%;
+        margin-bottom: 2rem;
+        text-align: start;
+    }
+
+    .copyright{margin-right:auto;}
+}
+
+@media(max-width:770px){
+    html{
+        font-size: 50%;
+    }
+}
